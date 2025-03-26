@@ -5,7 +5,6 @@ from flask import Flask
 from flask import render_template
 
 from src.details.libs import libs
-#import libs
 
 #-----------------------------------------
 
@@ -19,3 +18,4 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
